@@ -1,0 +1,82 @@
+Presentation outline:
+
+1. What is VFX
+    - Fire
+    - Fog
+    - Fluid (water)
+    - Spell
+    - Spark
+    - Projectile
+    - Debris
+
+2. How we made them
+    - Particle System
+    - Sprite sheet
+
+3. How shall we make them (MAIN) = VFX Graph
+3.1. DEMO
+    https://www.youtube.com/watch?v=rqMcPZoEc3U
+
+3.2. Terms
+    Context: Make up a chain [ Spawn -> Initialize -> Update -> (Quad) Output ]
+        Spawn:
+            - When to start this chain ?
+            - How many particles will be emitted ?
+            - When each particle will be emitted ?
+        Initialize:
+            - Max particles (Capacity) ?
+            - Initial position, rotation, scale, velocity, ...
+            - Lifetime
+        Update: How will particles be updated over time ?
+        (Quad) Output:
+            - How to render each particles ? (mesh, material, shader, texture, color ... )
+            - Facing behavior (Billboard ...)
+    Block: Is used to customize context
+    System: Is the chain [ Spawn -> Initialize -> Update -> (Quad) Output ]
+    Node: Custom nodes to feed value to blocks
+
+3.3. Tutorial to make a simple effect
+
+3.4. Break down a complex effect
+
+4. Compare with Particle System
+    - CPU vs GPU
+    - Better performance
+    - More freedom
+    - Intuitive
+    - More tools (Point-Cache, Vector Field, SDF, Cancel by Distance ...)
+        - Point-Cache: 
+        - Vector-Field: https://github.com/OlafHaag/VectorFields
+        - LOD by Cancel by Distance: https://blogs.unity3d.com/2019/04/10/upgrading-vfx-in-the-fps-sample-with-visual-effect-graph/
+    - Better workflow
+        - Convert Mind Map into VFX Graph
+        - Switch between options without losing works
+        - Artist-friendly binder (example: Attractive Force)
+        - Customize VFX via exposed properties
+    - Pack-able support from engineers (Sub-Graph)
+
+5. Why should I learn VFX Graph (Call to action)
+    - Better particle system
+    - Production-ready after 2 years in Preview
+    - Want to learn Shader Graph ?
+    - Want to learn Visual Scripting ?
+        - Unity Bolt
+        - Unreal Blueprint
+
+6. Why should I not learn VFX Graph (yet)
+    - Updated documentation is still on the way
+    - Steep learning curve, comparing to Particle System
+    - Only available from Unity 2018.3+ (HDRP only) or 2019.3+ (Both HDRP & URP)
+
+7. References
+    - Official homepage: https://unity.com/visual-effect-graph
+    - Latest documentation (incompleted): https://docs.unity3d.com/Packages/com.unity.visualeffectgraph@7.4/manual/index.html
+    - Block list (out-dated): https://docs.unity3d.com/Packages/com.unity.visualeffectgraph@6.9/manual/Blocks.html?_ga=2.183227494.1993550350.1592187419-1989489682.1583140292
+VFX Graph Samples: https://blogs.unity3d.com/2019/03/06/visual-effect-graph-samples/
+    - Spaceship demo: https://blogs.unity3d.com/2019/08/19/now-available-the-spaceship-demo-project-using-vfx-graph-and-high-definition-render-pipeline/?_ga=2.246437892.1293120756.1593407466-1989489682.1583140292
+
+8. Computer Graphics in Unity series:
+    - Visual Effect (this)
+    - Shader Graph
+    - Post Processing
+    - Global Illumination
