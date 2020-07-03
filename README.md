@@ -1,7 +1,7 @@
 # visual-effect-graph
-**THIS PROJECT IS DROPPED OFF DUE TO LACKING OF OFFICIAL DOCUMENTATION AND HIGHER COMPLEXITY COMPARING TO PARTICLE SYSTEM**
-
 Unity's Visual Effect Graph (VEG) playground
+
+[Click here for 'Final presentation' slide](https://github.com/DancingPhoenix88/visual-effect-graph/tree/master/PRESENTATION/VFX%20Graph/1.%20slides)
 
 ## Availability
 - **Unity 2019.3+**: Both `High Definition Render Pipeline` and `Universal Render Pipeline` are supported
@@ -46,6 +46,7 @@ Unity's Visual Effect Graph (VEG) playground
 - [Texture3D Preview](https://github.com/raphael-ernaelsten/Texture3DPreview-for-Unity): Preview Texture3D which Unity does not support
 - [Vector Field Examples](https://github.com/keijiro/VectorFieldExamples): Beautiful Vector Field showcases
 - [Vector Field Maker](https://www.youtube.com/watch?v=Mh-zh_Hj0V4): Paid asset to preview, create and import Vector Field. Preview is rendered with arrows, which is more intuitive than Texture3D. This is just 1 of many tools.
+- [SDFr](https://github.com/xraxra/SDFr) SDF Baker tool, to generate SDF asset (.vf file) from static mesh
 
 
 ## References:
