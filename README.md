@@ -1,4 +1,6 @@
 # visual-effect-graph
+**THIS PROJECT IS DROPPED OFF DUE TO LACKING OF OFFICIAL DOCUMENTATION AND HIGHER COMPLEXITY COMPARING TO PARTICLE SYSTEM**
+
 Unity's Visual Effect Graph (VEG) playground
 
 ## Availability
