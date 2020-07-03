@@ -36,6 +36,16 @@ Unity's Visual Effect Graph (VEG) playground
 - **Node**: Custom nodes to feed value to blocks
 
 
+## External tools
+- [VFX Toolbox](https://github.com/Unity-Technologies/VFXToolbox):
+	- Image Sequencer to make flipbook texture sheet
+	- Houdini plugin to convert Point Cache, Volume Exporter file to use in Unity
+	- Vector Field examples (.vf files), could be used as Texture3D in Unity
+- [Texture3D Preview](https://github.com/raphael-ernaelsten/Texture3DPreview-for-Unity): Preview Texture3D which Unity does not support
+- [Vector Field Examples](https://github.com/keijiro/VectorFieldExamples): Beautiful Vector Field showcases
+- [Vector Field Maker](https://www.youtube.com/watch?v=Mh-zh_Hj0V4): Paid asset to preview, create and import Vector Field. Preview is rendered with arrows, which is more intuitive than Texture3D. This is just 1 of many tools.
+
+
 ## References:
 | Description | Link |
 |-------------|------|
